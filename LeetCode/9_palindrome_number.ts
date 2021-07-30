@@ -1,4 +1,4 @@
-// Palindrome Number
+// 9. Palindrome Number
 // https://leetcode.com/problems/palindrome-number/
 
 function isPalindrome(x: number): boolean {
