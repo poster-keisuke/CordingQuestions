@@ -1,3 +1,6 @@
+// 2666. Allow One Function Call
+// https://leetcode.com/problems/allow-one-function-call/
+
 function once<T extends (...args: any[]) => any>(
   fn: T
 ): (...args: Parameters<T>) => ReturnType<T> | undefined {
